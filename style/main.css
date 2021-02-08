@@ -23,7 +23,7 @@ header .container{
 
 header .logo{
     color: var(--vermelho);
-    font-family: 'Arial Black', Times, serif;
+    font-family: 'Yusei Magic' , Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     margin-left: 15px;
 
@@ -39,13 +39,17 @@ header nav a:hover{
     color: #fff;
 }
 
+h4{
+    color: var(--preto);
+    font-size: 'Poppins', Times, serif;
+}
 /*Filme principal*/
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-pontocego.jpg');
-    
-    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/dio-netflix/img/capa-pontocego.jpg');
+    margin-bottom: 15px;
+    height: 500px;
     background-size: cover;
     
     display: flex;
@@ -69,6 +73,19 @@ header nav a:hover{
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modalTitle{
+    color: black;
+    border: black solid 1px;
+    align-items: left;
+}
+*/
 
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -100,4 +117,10 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.item:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
