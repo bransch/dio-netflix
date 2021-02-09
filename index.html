@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/main.css">
     
+    <!---arquivos para modal-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!--CSS Main-->
+    <link rel="stylesheet" href="style/main.css">
+    <!--CSS Responsivo-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+
     <!---arquivos owl css-->
 
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-    <!---arquivos para modal_-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+    
     <title>NETFLIX</title>
 </head>
 <body>
@@ -45,7 +52,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main><!--
     <div class="corrosel-filmes">
         <div class="owl-carousel owl-theme">
             <div class="item">
@@ -73,31 +80,36 @@
                 <img class="box-filme"src="img/casa-papel-poster.jpg">
             </div>
         </div>
+    </div>-->
+    <div class="corrosel-filmes">
+        <div id="imagens" class="owl-carousel owl-theme">            
+        </div>
     </div>
                 <!-- Modal -->
     <div id="capaModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
         <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">PONTO CEGO</h4>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">PONTO CEGO</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Ux1tX7dazw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2Ux1tX7dazw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe> 
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-      </div>
-      
     </div>
+    <script src="js/owl/auto.js"></script>
     <script src="https://kit.fontawesome.com/7b5e37d6e9.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/main.js"></script>
+    
 </body>
 </html>
 

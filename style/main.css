@@ -11,7 +11,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -23,7 +23,7 @@ header .container{
 
 header .logo{
     color: var(--vermelho);
-    font-family: 'Yusei Magic' , Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Arial Black' , Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     margin-left: 15px;
 
