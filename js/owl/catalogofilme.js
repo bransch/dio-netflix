@@ -42,11 +42,11 @@ filme8.cartaz = "img/casa-papel-poster.jpg";
 var catalogo = new Array(filme1, filme2, filme3, filme4, filme5, filme6, filme7, filme8);
 
 for(var i=0; i<catalogo.length; i++){
-    var divCarrosel = document.createElement('div');
-    divCarrosel.className = "item";
-    document.getElementById('imagens').appendChild(divCarrosel);
-    var posterCarrosel = document.createElement('img');
-    posterCarrosel.src=catalogo[i].cartaz;
-    posterCarrosel.className = "box-filme"
-    divCarrosel.appendChild(posterCarrosel);
+    var divCarrossel = document.createElement('div');
+    divCarrossel.className = "item";
+    document.getElementById('imagens').appendChild(divCarrossel);
+    var posterCarrossel = document.createElement('img');
+    posterCarrossel.src=catalogo[i].cartaz;
+    posterCarrossel.className = "box-filme"
+    divCarrossel.appendChild(posterCarrossel);
 }

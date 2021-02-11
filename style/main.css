@@ -73,19 +73,6 @@ h4{
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*
-.modal-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.modalTitle{
-    color: black;
-    border: black solid 1px;
-    align-items: left;
-}
-*/
 
 .botao{
     background-color: rgba(0,0,0,.50);
