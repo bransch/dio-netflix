@@ -47,7 +47,7 @@ h4{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/dio-netflix/img/capa-pontocego.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-pontocego.jpg');
     margin-bottom: 15px;
     height: 500px;
     background-size: cover;
